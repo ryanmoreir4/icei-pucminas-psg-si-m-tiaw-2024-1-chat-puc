@@ -1,6 +1,6 @@
 # Chat Puc
 
-Uma ferramenta que é capaz de responder e auxiliar os usuários que tenham eventuiais dúvidas referentes a instituição Puc Minas
+Uma ferramenta que é capaz de responder e auxiliar os usuários que tenham eventuais dúvidas referentes a instituição Puc Minas
 
 ## Alunos integrantes da equipe
 
