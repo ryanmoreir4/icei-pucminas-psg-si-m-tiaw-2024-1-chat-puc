@@ -1,17 +1,17 @@
-# Nome do projeto
+# Chat Puc
 
-Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
+Uma ferramenta que é capaz de responder e auxiliar os usuários que tenham eventuiais dúvidas referentes a instituição Puc Minas
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
+* João Victor de Assis Silva
 * Nome completo do aluno 2
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
+* Pedro Felipe Alves de Oliveira
 * Nome completo do professor 2
 
 ## Instruções de utilização
