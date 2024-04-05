@@ -12,7 +12,7 @@ Uma ferramenta que é capaz de responder e auxiliar os usuários que tenham even
 ## Professores responsáveis
 
 * Pedro Felipe Alves de Oliveira
-* Nome completo do professor 2
+* Katia Adriana Alves Leite de Barros
 
 ## Instruções de utilização
 
