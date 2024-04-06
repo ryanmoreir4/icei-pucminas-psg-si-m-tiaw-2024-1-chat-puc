@@ -5,7 +5,7 @@ Uma ferramenta que é capaz de responder e auxiliar os usuários que tenham even
 ## Alunos integrantes da equipe
 
 * João Victor de Assis Silva
-* Nome completo do aluno 2
+* Ryan Moreira Paulino de Oliveira
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 
