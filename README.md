@@ -6,7 +6,7 @@ Uma ferramenta que é capaz de responder e auxiliar os usuários que tenham even
 
 * João Victor de Assis Silva
 * Ryan Moreira Paulino de Oliveira
-* Nome completo do aluno 3
+* Wander Carolino Amando Silva
 * Nome completo do aluno 4
 
 ## Professores responsáveis
