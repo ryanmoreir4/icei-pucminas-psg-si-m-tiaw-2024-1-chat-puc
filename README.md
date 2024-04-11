@@ -8,6 +8,7 @@ Uma ferramenta que é capaz de responder e auxiliar os usuários que tenham even
 * Ryan Moreira Paulino de Oliveira
 * Wander Carolino Amando Silva
 * Vitória Ferreira Soares
+* Marina de Abreu Senna Caronti
 
 ## Professores responsáveis
 
