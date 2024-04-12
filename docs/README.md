@@ -43,30 +43,30 @@ Aqui você deve descrever os objetivos do trabalho indicando que o objetivo gera
 
 
 1. **Necessidade de Comunicação Eficiente e Acessível:**
-   - Com a crescente digitalização e globalização, a comunicação eficaz se tornou fundamental em diversos contextos, desde empresas até instituições educacionais.
-   - A Pontifícia Universidade Católica (PUC), sendo uma instituição renomada e diversificada, com alunos, professores e funcionários de diferentes áreas e níveis de 
+   
+   - Com a crescente  comunicação eficaz se tornou fundamental em diversos contextos, desde empresas até instituições educacionais.
+  
      experiência, pode se beneficiar de uma plataforma de comunicação interna eficiente e acessível.
 
-2. **Facilidade de Interação e Acesso à Informação:**
+3. **Facilidade de Interação e Acesso à Informação:**
    - Um ChatPUC ofereceria um canal centralizado para troca de informações, perguntas e respostas, tanto de natureza acadêmica quanto administrativa.
-   - Isso reduziria a sobrecarga de e-mails, tornando a comunicação mais ágil e direta.
+
    - Alunos, professores e funcionários poderiam acessar rapidamente informações relevantes, como horários de aula, eventos, notícias da universidade, entre outros.
 
-3. **Promoção da Colaboração e Aprendizado Contínuo:**
-   - Um ChatPUC poderia incluir recursos de colaboração, como salas de bate-papo temáticas, fóruns de discussão e grupos de estudo.
+4. **Promoção da Colaboração e Aprendizado Contínuo:**
+   - Um ChatPUC poderia incluir recursos de colaboração, como salas de bate-papo .
    - Isso incentivaria a interação entre membros da comunidade acadêmica, facilitando a troca de conhecimento e experiências.
    - Além disso, os estudantes poderiam buscar ajuda de colegas e professores de forma mais rápida e informal, promovendo um ambiente de aprendizado contínuo e colaborativo.
 
-4. **Melhoria da Experiência do Aluno e Engajamento:**
-   - Um ChatPUC poderia contribuir para uma experiência estudantil mais satisfatória, proporcionando um canal de comunicação direta com a universidade.
+5. **Melhoria da Experiência do Aluno e Engajamento:**
+   - Um ChatPUC poderia contribuir para uma experiência dos estudantes mais satisfatória, proporcionando um canal de comunicação direta com a universidade.
    - Os alunos se sentiriam mais conectados à comunidade acadêmica, aumentando o seu engajamento e senso de pertencimento.
    - Além disso, um ChatPUC poderia servir como um espaço para feedbacks e sugestões, permitindo que a universidade avalie constantemente e melhore seus serviços.
 
-5. **Eficiência Administrativa e Redução de Barreiras:**
+6. **Eficiência Administrativa e Redução de Barreiras:**
    - Para a administração da PUC, um ChatPUC poderia agilizar processos internos, como atendimento ao cliente, suporte técnico e gerenciamento de solicitações.
    - Isso poderia reduzir a burocracia e os tempos de resposta, melhorando a eficiência operacional da instituição.
-   - Além disso, um ChatPUC poderia ser implementado com inteligência artificial para automatizar tarefas repetitivas, liberando recursos humanos para atividades mais 
-     estratégicas.
+   
 
 A criação de um ChatPUC proporcionaria uma plataforma eficiente para comunicação e colaboração dentro da universidade, beneficiando alunos, professores, funcionários e administração. Isso não apenas melhoraria a experiência acadêmica, mas também contribuiria para uma comunidade mais conectada, engajada e eficiente.
 
