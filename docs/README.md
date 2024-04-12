@@ -32,15 +32,16 @@ Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Think
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+O objetivo principal deste projeto é desenvolver uma ferramenta em forma de um chat de comunicação online capaz de responder e auxiliar os usuários com todas as eventuais dúvidas que possam ter relacionadas à instituição PUC Minas.
 
-**Links Úteis**:
+**Como objetivos específicos, podemos ressaltar:**
 
-- [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-  
+-	Identificar através da percepção da comunidade acadêmica os benefícios concedidos com relação as informações fornecidas e o suporte oferecido pela plataforma;
+-	Interpretar o papel do “Chat PUC” como forma de facilitar e colaborar com a interação entre os segmentos presentes na PUC minas;
+-	Avaliar a eficácia desse chat de comunicação online como uma ferramenta que colabora nas trocas de informações existentes da Universidade;
+-	Integrar o “Chat PUC” com os sistemas utilizados pela comunidade acadêmica da PUC minas, tais quais como a biblioteca, informações gerais sobres os cursos disponibilizados e matrícula, horário de aula e seus turnos e entre outros assuntos que a pessoa irá procurar e esclarecer suas dúvidas.
 
 ## Justificativa
-
 
 1. **Necessidade de Comunicação Eficiente e Acessível:**
    
@@ -69,7 +70,6 @@ Aqui você deve descrever os objetivos do trabalho indicando que o objetivo gera
    
 
 A criação de um ChatPUC proporcionaria uma plataforma eficiente para comunicação e colaboração dentro da universidade, beneficiando alunos, professores, funcionários e administração. Isso não apenas melhoraria a experiência acadêmica, mas também contribuiria para uma comunidade mais conectada, engajada e eficiente.
-
 
 ## Público-Alvo
 
@@ -104,19 +104,51 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 ## Requisitos
 
-Os requisitos de um projeto são classificados em dois grupos:
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral.
 
-- [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
-  correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).
+- [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional): Explicação de requisitos funcionais.
+- [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional) Explicação de requisitos não-funcionais.
 
-Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+Os requisitos do Projeto são apresentados a seguir.
 
-**Links Úteis**:
+**Requisitos Funcionais:**
+A tabela a seguir apresenta os requisitos funcionais do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 
-- [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-- [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+| ID   | Descrição                                                                                          | Prioridade |
+|------|----------------------------------------------------------------------------------------------------|------------|
+| RF-01| O site deve incluir um chat na página inicial, permitindo que os usuários digitem e mandem suas dúvidas manualmente. | Alta |
+| RF-02| O site deve incluir um formulário de cadastro destinado aos usuários que façam parte da comunidade PUC Minas. | Alta |
+| RF-03| O site deve permitir que os usuários façam login em suas contas com credenciais válidas | Alta |
+| RF-04| O site deve obter uma sessão para ‘Visitantes’ destinada aos usuários que não são membros da comunidade PUC Minas e, portanto, não precisam se cadastrar. | Alta |
+| RF-05| O site deve apresentar uma seção de feedback, onde os usuários podem enviar suas opiniões e críticas referentes a plataforma. | Alta |
+| RF-06| O site deve manter um registro do histórico de perguntas e respostas de cada usuário para referência futura. | Média |
+| RF-07| O site deve permitir que os usuários pesquisem perguntas anteriores e suas respostas. | Média |
+| RF-08| O site deve permitir que os usuários classifiquem a qualidade das respostas fornecidas para melhorar o sistema de resposta. | Média |
+| RF-09| O site deve compilar uma seleção das perguntas mais frequentes feitas pelos usuários, com o objetivo de facilitar a pesquisa para outros potenciais usuários que possam ter a mesma dúvida. | Média |
+| RF-10| O site deve permitir que os usuários compartilhem perguntas e respostas em redes sociais ou por meio de mensagens. | Baixa |
+| RF-11| O site deve oferecer um modo de tela escura para que o usuário possa alternar conforme sua preferência. | Baixa |
+| RF-12| O site deve permitir que o usuário exclua todo o seu histórico de navegação na plataforma. | Baixa |
+
+**Requisitos não-Funcionais:**
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
+
+| ID    | Descrição                                                                                                          | Prioridade |
+|-------|--------------------------------------------------------------------------------------------------------------------|------------|
+| RNF-01| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)     | Alta       |
+| RNF-02| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada                           | Alta       |
+| RNF-03| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku)     | Alta       |
+| RNF-04| O site deve responder rapidamente às consultas dos usuários, com tempos de carregamento rápidos                   | Alta       |
+| RNF-05| O aplicativo deve ser confiável, garantindo que as perguntas dos usuários sejam respondidas com precisão e consistência | Alta   |
+| RNF-06| O sistema deve estar disponível para uso a maior parte do tempo, com tempos mínimos de inatividade planejada para manutenção | Média |
+
+**Restrições:**
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
+
+| ID    | Descrição                                                                                      |
+|-------|------------------------------------------------------------------------------------------------|
+| RE-01 | O projeto deverá ser entregue no final do semestre letivo.                                     |
+| RE-02 | A equipe não pode subcontratar o desenvolvimento do trabalho.                                   |
+| RE-03 | O aplicativo deve se restringir às tecnologias básicas da Web no Frontend.                      |
 
 ## User Flow
 
@@ -141,14 +173,32 @@ Wireframes são protótipos das telas da aplicação usados em design de interfa
 
 ## Gestão de Projetos
 
- Nesta parte do documento, você deve apresentar  o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a gestão de configuração do projeto via GitHub.
+ A metodologia contempla as definições de ferramentas utilizadas pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
 
-Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+**Relação de Ambientes de Trabalho**
 
-**Links Úteis**:
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
-- [Sobre Projects - GitHub Docs](https://docs.github.com/pt/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
-- [Gestão de projetos com GitHub | balta.io](https://balta.io/blog/gestao-de-projetos-com-github)
-- [(460) GitHub Projects - YouTube](https://www.youtube.com/playlist?list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H)
-- [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-- [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+| Ambiente                      | Plataforma | Link de Acesso                                                                                               |
+|-------------------------------|------------|--------------------------------------------------------------------------------------------------------------|
+| Repositório de código fonte   | GitHub     | [Link](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-chat-puc/tree/master/codigo) |
+| Documentos do projeto         | GitHub     | [Link](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-m-tiaw-2024-1-chat-puc/tree/master/docs)   |
+| Projeto de Interface e Wireframes | Figma      |                                                                                                              |
+
+**Gerenciamento do Projeto**
+
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
+
+A equipe está organizada da seguinte maneira:
+- Scrum Master: João Victor
+- Product Owner: Ryan Moreira
+- Equipe de Desenvolvimento:
+  
+  - Vitória Ferreira Soares
+  - Wander Carolino Amando Silva
+  - Marina de Abreu Senna Caronti
+  - Ryan Moreira Paulino de Oliveira
+  - Pedro Henrique Géa Fernandes
+  - João Victor de Assis Silva 
+
+No início do projeto, nossa equipe utilizava apenas o grupo do WhatsApp para a organização e distribuição das tarefas. Entretanto, para as próximas etapas, planejamos adotar outras plataformas de auxílio, como o Trello, com o objetivo de aprimorar o desempenho, a comunicação, o planejamento, a resolução de problemas e diversos outros aspectos cruciais para o processo de desenvolvimento.
