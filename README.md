@@ -9,6 +9,7 @@ Uma ferramenta que é capaz de responder e auxiliar os usuários que tenham even
 * Wander Carolino Amando Silva
 * Vitória Ferreira Soares
 * Marina de Abreu Senna Caronti
+* Pedro Henrique Géa Fernandes
 
 ## Professores responsáveis
 
