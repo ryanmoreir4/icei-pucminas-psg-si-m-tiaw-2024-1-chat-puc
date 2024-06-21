@@ -1,0 +1,56 @@
+{
+  "respostas": [
+    {
+      "id": 1,
+      "texto": "A biblioteca da PUC Minas funciona de segunda a sexta, das 8h às 22h.",
+      "palavras_chave": [
+        "biblioteca",
+        "horário",
+        "funcionamento"
+      ],
+      "avaliacoes": {
+        "util": 6,
+        "nao_util": 1
+      }
+    },
+    {
+      "id": 2,
+      "texto": "A secretaria acadêmica está localizada no prédio principal, sala 101.",
+      "palavras_chave": [
+        "secretaria",
+        "localização",
+        "sala"
+      ],
+      "avaliacoes": {
+        "util": 2,
+        "nao_util": 1
+      }
+    },
+    {
+      "texto": "Olá! O Curso de Administração é ofertado nas seguintes unidades: <ul><li>Barreiro</li><li>Betim</li><li>Contagem</li><li>Praça da Liberdade</li><li>Poços de Caldas</li><li>Coração Eucarístico</li></ul>",
+      "palavras_chave": [
+        "unidades",
+        "curso",
+        "administração"
+      ],
+      "avaliacoes": {
+        "util": 2,
+        "nao_util": 1
+      },
+      "id": 3
+    },
+    {
+      "texto": "Claro, aqui estão os cursos ofertados para 2024 na unidade do bairro São Gabriel!!<ul><li>ADMINISTRAÇÃO</li><li>ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</li><li>CIÊNCIAS CONTÁBEIS</li><li>DIREITO</li><li>ENGENHARIA AERONÁUTICA</li><li>ENGENHARIA DE COMPUTAÇÃO</li><li>ENGENHARIA MECÂNICA</li><li>JOGOS DIGITAIS</li><li>JORNALISMO</li><li>PSICOLOGIA</li><li>PUBLICIDADE E PROPAGANDA</li><li>SISTEMAS DE INFORMAÇÃO</li></ul>",
+      "palavras_chave": [
+        "cursos",
+        "unidade",
+        "são gabriel"
+      ],
+      "avaliacoes": {
+        "util": 17,
+        "nao_util": 1
+      },
+      "id": 4
+    }
+  ]
+}
