@@ -15,6 +15,10 @@ Uma ferramenta que é capaz de responder e auxiliar os usuários que tenham even
 
 https://trello.com/b/8Qd18lLX/chat-puc-tarefas-do-grupo
 
+## Design do Chat Puc
+
+https://www.figma.com/file/vOKaw2Lj7riBty3knFSNiO/ChatPUC?type=design&node-id=0%3A1&mode=design&t=y2W16YnklspKqqP2-1
+
 ## Professores responsáveis
 
 * Pedro Felipe Alves de Oliveira
