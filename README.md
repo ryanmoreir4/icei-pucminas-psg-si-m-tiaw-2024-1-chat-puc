@@ -11,6 +11,10 @@ Uma ferramenta que é capaz de responder e auxiliar os usuários que tenham even
 * Marina de Abreu Senna Caronti
 * Pedro Henrique Géa Fernandes
 
+## Quadro de tarefas
+
+https://trello.com/b/8Qd18lLX/chat-puc-tarefas-do-grupo
+
 ## Professores responsáveis
 
 * Pedro Felipe Alves de Oliveira
