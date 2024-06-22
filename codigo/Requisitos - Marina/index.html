@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusão de conta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img id="profile-image" src="foto de perfil.jpg" alt="Foto de Perfil" class="profile-image">
+            <div id="dropdown-menu" class="dropdown-menu">
+                <button id="settings-btn" class="dropdown-item">Configurações</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="settings-menu" class="settings-menu">
+        <div class="settings-content">
+            <span class="close-settings" aria-label="Fechar Configurações">&times;</span>
+            <h2>Configurações</h2>
+            <div class="divider"></div>
+            <div class="profile-info">
+                <img src="perfil.jpg" alt="Foto de Perfil" class="profile-image small">
+                <div class="profile-text">
+                    <h3>MelissaSantos</h3>
+                    <p>melissa@pucminas.br</p>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <h3>Segurança da Conta</h3>
+            <p>E-mail: <u>melissa@pucminas.br</u></p>
+            <p>Senha: *******</p>
+            <div class="divider"></div>
+            <h3>Suporte</h3>
+            <button id="logout-devices-btn" class="support-button">Sair de Todos os Dispositivos</button>
+            <button id="open-modal-btn-support" class="support-button"><span class="red-text">Excluir Conta</span></button>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" aria-label="Fechar Modal">&times;</span>
+            <p>Você tem certeza que deseja excluir sua conta?</p>
+            <button class="btn-confirmar">Confirmar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
