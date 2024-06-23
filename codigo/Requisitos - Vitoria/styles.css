@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background-color: #f0f0f0;
+  }
+  
+  .header-container {
+    background-color: #3498db;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .header-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 15%;
+  }
+  
+  .container {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .sidebar-option {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #2980b9;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar-option:hover {
+    background-color: #2e5484;
+  }
+  
+  .main-section {
+    flex-grow: 1;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-left: 10px;
+  }
+  
+  .section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .input-question {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .btn-inserir {
+    background-color: #2cab00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-inserir:hover {
+    background-color: #5b6c9f;
+  }
+  
+  .questions-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .questions-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .questions-list li:hover {
+    background-color: #bdc3c7;
+    cursor: pointer;
+  }
+  
+  .btn-delete {
+    background-color: #d10000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-delete:hover {
+    background-color: #df210c;
+  }
