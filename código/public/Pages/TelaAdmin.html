@@ -1,0 +1,50 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Administrator Settings</title>
+      <link rel="stylesheet" href="../assets/css/TelaAdmin.css"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+      <div class="container">
+        <div class="sidebar">
+          <div class="header-title">Administrador</div>
+          <div class="sidebar-option"><a href="TelaAdmin.html"><p id="tela-cadastros">Tela de Cadastros</p></a></div>
+          <div class="sidebar-option"><a href="TelaPrincipal.html"><p id="btn-tela-principal">Tela Principal</p></a></div>
+        </div>
+        <div class="main-section">
+          <div class="section-title">Cadastro/Alteração de Respostas</div>
+          <div class="input-container">
+            <input id="campo-PalavrasChave" type="text" class="input-keywords" placeholder="Palavras-chave" />
+            <input id="campo-Resposta" type="text" class="input-response" placeholder="Resposta" />
+          </div>
+          <div class="button-container">
+            <button id="btn-inserir" class="btn-inserir">Inserir</button>
+            <button id="btn-alterar" class="btn-alterar">Alterar</button>
+            <button id="btn-limpar" class="btn-limpar">Limpar formulário</button>
+            <button id="btn-deletar" class="btn-deletar">Deletar</button>
+          </div>
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="table-header">Palavras-chave</th>
+                <th class="table-header">Resposta</th>
+                <th class="table-header">Útil</th>
+                <th class="table-header">Não útil</th>
+                <th class="table-header">Data de criação/alteração</th>
+                <th class="table-header">Selecionar</th>
+              </tr>
+            </thead>
+            <tbody id="table-body">
+              <!-- tabela de perguntas -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <script src="../assets/script/TelaAdmin.js"></script>
+    </body>
+  </html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Principal</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/TelaPrincipal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav class="menu">
+            <button id="btn-logo" class="icon"><img src="../assets/icones/Logo.svg" alt="Logo"></button>
+            <button id="btn-chat" class="icon"><img src="../assets/icones/Chat.svg" alt="Chat Icon"></button>
+            <button id="btn-manage" class="icon"><img src="../assets/icones/Manage Subscription.svg" alt=""></button>
+            <button id="btn-explore" class="icon"><img src="../assets/icones/Explore What's new.svg" alt=""></button>
+            <button id="btn-config" class="icon"><img src="../assets/icones/Settings.svg" alt=""></button>
+            <button id="btn-logout" class="icon"><a href="Login.html"><img src="../assets/icones/Logout.svg"></a></button>
+        </nav>
+        <aside class="sidebar">
+            <div class="header">
+                <h2>Minhas<br>Conversas</h2>
+                <button id="btn-novaConversa" class="new-conversation"><img src="../assets/icones/New Chat Icon.svg" alt=""></button>
+                <button id="btn-menu" class="new-conversation"><img src="../assets/icones/kebad Menu 2.svg" alt=""></button>
+            </div>
+            <div class="tabs">
+                <button class="tab active">Conversas</button>
+                <button class="tab">Salvos</button>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Pesquisar...">
+            </div>
+            <div class="conversations">
+                <div class="conversation">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="conversation">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <!-- Outras conversas -->
+            </div>
+        </aside>
+        <main class="chat">
+            <div class="chat-header">
+                <h2>Seja bem vindo ao ChatPUC!</h2>  
+                <img src="../assets/icones/Kebab Menu.svg" alt="">
+            </div>
+            <div class="chat-body" id="chat-body">            </div>
+            <div class="chat-footer">
+                <img src="../assets/icones/magic wand tool.svg" alt="">
+                <input type="text" id="userInput" placeholder="Digite sua dúvida...">
+                <button id="submitButton">Enviar</button>
+            </div>
+        </main>
+    </div>
+    <script src="../assets/script/TelaPrincipal.js"></script>
+</body>
+</html>
