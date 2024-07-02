@@ -9,13 +9,15 @@ document.getElementById('submitButton').addEventListener('click', async function
 
   if (userQuestion === '') {
     alert('Por favor, digite uma dúvida antes de enviar.');
-    return; 
+    return;
   }
 
-  // Cria a mensagem do usuário
+  // Cria a mensagem do usuário com ID único
   const userMessage = document.createElement('div');
   userMessage.className = 'message user';
   userMessage.innerHTML = `<p>${userQuestion}</p>`;
+  const userMessageId = `message-${Date.now()}`;
+  userMessage.id = userMessageId;
   chatBody.appendChild(userMessage);
 
   const response = await fetch('http://localhost:3000/respostas');
@@ -69,7 +71,6 @@ document.getElementById('submitButton').addEventListener('click', async function
     updateEvaluation(responseId, false, usefulButton, notUsefulButton);
   });
 
-
   actionsDiv.appendChild(copyButton);
   actionsDiv.appendChild(usefulButton);
   actionsDiv.appendChild(notUsefulButton);
@@ -79,20 +80,37 @@ document.getElementById('submitButton').addEventListener('click', async function
 
   usefulButton.addEventListener('click', function() {
     updateEvaluation(responseId, true, usefulButton, notUsefulButton);
-    usefulButton.style.backgroundColor = '#4CAF50'; 
-    notUsefulButton.style.backgroundColor = ''; 
+    usefulButton.style.backgroundColor = '#4CAF50';
+    notUsefulButton.style.backgroundColor = '';
   });
 
   notUsefulButton.addEventListener('click', function() {
     updateEvaluation(responseId, false, usefulButton, notUsefulButton);
     notUsefulButton.style.backgroundColor = '#f44336';
-    usefulButton.style.backgroundColor = ''; 
+    usefulButton.style.backgroundColor = '';
   });
 
   document.getElementById('userInput').value = '';
 
   chatBody.scrollTop = chatBody.scrollHeight;
+
+  // Adiciona a pergunta ao histórico
+  addQuestionToHistory(userQuestion, userMessageId);
 });
+
+// Função para adicionar a pergunta ao histórico
+async function addQuestionToHistory(question, messageId) {
+  const conversationEntry = document.createElement('div');
+  conversationEntry.className = 'conversation';
+  conversationEntry.innerHTML = `<p>${question}</p>`;
+  conversationEntry.addEventListener('click', function() {
+    const messageElement = document.getElementById(messageId);
+    if (messageElement) {
+      messageElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  });
+  document.getElementById('conversations').appendChild(conversationEntry);
+}
 
 async function updateEvaluation(responseId, isUseful, usefulButton, notUsefulButton) {
   if (!responseId) return;
