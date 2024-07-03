@@ -9,7 +9,7 @@
         "funcionamento"
       ],
       "avaliacoes": {
-        "util": 7,
+        "util": 10,
         "nao_util": 1
       }
     },
@@ -48,7 +48,7 @@
         "são gabriel"
       ],
       "avaliacoes": {
-        "util": 17,
+        "util": 15,
         "nao_util": 2
       }
     }
@@ -117,8 +117,8 @@
   ],
   "feedbacks": [
     {
-      "text": "Gostei muito desse site!",
-      "id": 1
+      "id": "2079",
+      "text": "Curti bastante!!"
     }
   ]
 }

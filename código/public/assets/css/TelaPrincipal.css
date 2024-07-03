@@ -25,13 +25,10 @@ body {
 }
 
 .icon {
-  margin-left: 6px !important;
   margin: 15px 0;
   border: none;
   background-color: transparent;
   cursor: pointer;
-  width: 40px;
-  height: 30px;
 }
 
 #btn-logout {
@@ -65,11 +62,11 @@ body {
 .header-right {
   display: flex;
   align-items: center;
-  margin-left: auto; 
+  margin-left: auto;
 }
 
 .feedback-button {
-  background-color: #2EC49C;
+  background-color: #2ec49c;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -344,6 +341,9 @@ body {
   background-color: transparent;
   border: none;
   color: red;
-  font-family: "Poppins";
   display: flex;
+}
+
+#img-clear {
+  padding-right: 5px;
 }
