@@ -89,6 +89,30 @@
       "roles": [
         "aluno"
       ]
+    },
+    {
+      "id": "5b84",
+      "fullName": "Carlos da Silva",
+      "age": "23",
+      "contactNumber": "31983235341",
+      "city": "Montes Claros",
+      "email": "carlosdasilva@gmail.com",
+      "password": "87654321",
+      "roles": [
+        "professor"
+      ]
+    },
+    {
+      "id": "ff51",
+      "fullName": "Joao Oliveira",
+      "age": "42",
+      "contactNumber": "99999999999",
+      "city": "Neves",
+      "email": "joaozin@gmail.com",
+      "password": "30146812",
+      "roles": [
+        "funcionario"
+      ]
     }
   ]
 }
