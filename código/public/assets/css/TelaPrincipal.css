@@ -25,6 +25,7 @@ body {
 }
 
 .icon {
+  margin-left: 6px !important;
   margin: 15px 0;
   border: none;
   background-color: transparent;
@@ -76,6 +77,11 @@ body {
   cursor: pointer;
   font-size: 14px;
   margin-right: 10px;
+}
+
+.feedback-button a {
+  text-decoration: none;
+  color: white;
 }
 
 .feedback-button:hover {

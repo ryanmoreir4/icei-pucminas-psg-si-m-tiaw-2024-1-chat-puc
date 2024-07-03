@@ -179,9 +179,12 @@ async function updateEvaluation(
   }
 }
 
-document.getElementById('btn-feedback').addEventListener('click', function() {
-  window.location.href = '../Pages/Feedback.html'; 
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('btn-feedback').addEventListener('click', function() {
+    window.location.href = '../Pages/Feedback.html'; 
+  });
 });
+
 
 // Fechar o modal ao clicar fora dele
 window.addEventListener("click", function (event) {
