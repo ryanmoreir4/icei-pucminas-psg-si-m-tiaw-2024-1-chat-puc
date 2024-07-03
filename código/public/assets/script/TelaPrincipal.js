@@ -140,3 +140,7 @@ async function updateEvaluation(responseId, isUseful, usefulButton, notUsefulBut
     notUsefulButton.disabled = true;
   }
 }
+
+document.getElementById('btn-feedback').addEventListener('click', function() {
+  window.location.href = '../Pages/Feedback.html'; 
+});

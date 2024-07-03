@@ -12,7 +12,8 @@
 .header-title {
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  margin-left: 5px;
 }
 
 .header-title,
@@ -35,7 +36,7 @@
   width: 90%;
   padding: 10px 20px;
   margin-bottom: 10px;
-  background-color: #3895ff;
+  background-color: #3498db; /* Azul Claro */
   border: none;
   border-radius: 5px;
   font-size: 1em;
@@ -57,7 +58,7 @@
 }
 
 .sidebar-option:hover {
-  background-color: #28a085;
+  background-color: #1936dd;
 }
 
 .main-section {
@@ -190,3 +191,5 @@
   max-width: 200px;
   text-align: center;
 }
+
+

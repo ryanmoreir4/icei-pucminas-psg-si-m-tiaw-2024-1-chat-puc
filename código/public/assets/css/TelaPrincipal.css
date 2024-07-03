@@ -59,6 +59,27 @@ body {
   border-bottom: 1px solid #e2e2e2;
 }
 
+.header-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto; 
+}
+
+.feedback-button {
+  background-color: #2EC49C;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.feedback-button:hover {
+  background-color: #28a745;
+}
+
 .new-conversation {
   cursor: pointer;
   border: none;
@@ -148,7 +169,7 @@ body {
 }
 
 .chat-header {
-  height: 50px;
+  height: 60px;
   padding: 0px 20px;
   border-bottom: 1px solid #e0e0e0;
   background-color: #f1f0f0;
@@ -159,6 +180,7 @@ body {
 }
 
 .chat-header h2 {
+  margin-top: 20px;
   text-align: center;
   font-size: 20px;
 }
@@ -201,6 +223,10 @@ body {
   color: #ffffff;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.chat-footer button:hover {
+  background-color: #28a745;
 }
 
 .chat-footer img {
