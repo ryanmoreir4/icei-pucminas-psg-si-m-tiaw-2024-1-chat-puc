@@ -1,52 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Formulário de Registro</title>
-  <link rel="stylesheet" href="../assets/css/Cadastro.css">
-</head>
-<body>
-  <div class="container">
-    <div class="form-container">
-      <form id="registration-form">
-        <fieldset>
-          <h1>Cadastre-se no ChatPUC</h1>
-          <p>Crie sua conta para ter acesso a uma infinidade de informações</p>
-          <label for="full-name">Nome Completo:</label>
-          <input type="text" id="full-name" name="full-name" required>
-          <label for="age">Idade:</label>
-          <input type="number" id="age" name="age" required>
-          <label for="contact-number">Número de contato:</label>
-          <input type="tel" id="contact-number" name="contact-number" required>
-          <label for="city">Cidade:</label>
-          <input type="text" id="city" name="city" required>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-          <label for="password">Senha:</label>
-          <input type="password" id="password" name="password" required>
-          <label for="confirm-password">Confirmar senha:</label>
-          <input type="password" id="confirm-password" name="confirm-password" required>
-          <p id="categoria">Selecione sua categoria:</p>
-          <div class="header">
-            <label><input type="checkbox" name="role" value="professor"> PROFESSOR</label>
-            <label><input type="checkbox" name="role" value="aluno"> ALUNO</label>
-            <label><input type="checkbox" name="role" value="funcionario"> FUNCIONÁRIO</label>
-          </div>
-          <input type="submit" value="Registrar">
-        </fieldset>
-      </form>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Registro</title>
+    <link rel="stylesheet" href="../assets/css/Cadastro.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <form id="registration-form">
+          <fieldset>
+            <h1>Cadastre-se no ChatPUC</h1>
+            <p>
+              Crie sua conta para ter acesso a uma infinidade de informações
+            </p>
+            <label for="full-name">Nome Completo:</label>
+            <input type="text" id="full-name" name="full-name" required />
+            <label for="age">Idade:</label>
+            <input type="number" id="age" name="age" required />
+            <label for="contact-number">Número de contato:</label>
+            <input
+              type="tel"
+              id="contact-number"
+              name="contact-number"
+              required
+            />
+            <label for="city">Cidade:</label>
+            <input type="text" id="city" name="city" required />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required />
+            <label for="confirm-password">Confirmar senha:</label>
+            <input
+              type="password"
+              id="confirm-password"
+              name="confirm-password"
+              required
+            />
+            <p id="categoria">Selecione sua categoria:</p>
+            <div class="header">
+              <label
+                ><input type="checkbox" name="role" value="professor" />
+                PROFESSOR</label
+              >
+              <label
+                ><input type="checkbox" name="role" value="aluno" />
+                ALUNO</label
+              >
+              <label
+                ><input type="checkbox" name="role" value="funcionario" />
+                FUNCIONÁRIO</label
+              >
+            </div>
+            <input type="submit" value="Registrar" />
+          </fieldset>
+        </form>
+        <div class="additional-info">
+          <p>
+            Já tem uma conta?
+            <a href="index.html">Clique aqui para fazer login</a>
+          </p>
+        </div>
+      </div>
       <div class="additional-info">
-        <p>Já tem uma conta? <a href="login.html">Clique aqui para fazer login</a></p>
+        <p id="terms-of-use">Termos de Uso</p>
+        <p id="copyright">Copyright 2024</p>
+        <!-- <button id="excluir-usuario-btn">Deletar</button> -->
       </div>
     </div>
-    <div class="additional-info">
-      <p id="terms-of-use">Termos de Uso</p>
-      <p id="copyright">Copyright 2024</p>
-      <!-- <button id="excluir-usuario-btn">Deletar</button> -->
-    </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="../assets/script/Cadastro.js"></script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../assets/script/Cadastro.js"></script>
+  </body>
 </html>
