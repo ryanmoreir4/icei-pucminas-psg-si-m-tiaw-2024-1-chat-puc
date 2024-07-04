@@ -33,7 +33,7 @@ $(document).ready(function () {
         console.log("Usuário adicionado:", response);
         alert("Formulário enviado e processado com sucesso!");
         console.log("Redirecionando para a página de login...");
-        window.location.href = "login.html";
+        window.location.href = "index.html";
       },
       error: function (xhr, status, error) {
         console.error("Erro ao adicionar usuário:", error);
