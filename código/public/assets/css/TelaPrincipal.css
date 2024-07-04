@@ -16,7 +16,7 @@ body {
 }
 
 .menu {
-  width: 60px;
+  width: 4%;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -48,12 +48,12 @@ body {
   display: flex;
   flex-direction: column;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  width: 25%;
 }
 
 .header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
   padding-left: 20px;
   background-color: #f1f0f0;
   border-bottom: 1px solid #e2e2e2;
@@ -89,10 +89,6 @@ body {
   cursor: pointer;
   border: none;
   background-color: transparent;
-}
-
-#btn-novaConversa {
-  margin-left: 60px;
 }
 
 .tabs {
@@ -169,7 +165,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: calc(70% - 50px);
-  max-width: 880px;
+  max-width: 70%;
   margin-left: 40px;
 }
 
